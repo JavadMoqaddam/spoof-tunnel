@@ -2,7 +2,6 @@
 
 [English](README.md)
 
-
 اسپوف تانل یک تونل پروکسی در لایه‌های ۳ و ۴ شبکه (L3/L4) است که به صورت ویژه برای دور زدن فایروال‌های پردازش عمیق بسته‌ها (DPI) و سیستم‌های مانیتورینگ stateful از طریق تکنیک **جعل آی‌پی دوطرفه (Mutual IP Spoofing)** طراحی شده است.
 
 پروتکل‌های تونل‌زنی سنتی، یک اتصال منطقی (Stateful) بین یک آی‌پی مشخص کلاینت و یک آی‌پی مشخص سرور برقرار می‌کنند. اسپوف تانل این وابستگی منطقی را با دستکاری فیلد `Source IP` درون هدر IP در هر دو سمت ارتباط کاملاً از بین می‌برد و شناسایی ترافیک را برای فایروال‌ها بسیار دشوار می‌سازد.
@@ -365,4 +364,17 @@ make all
 `./spoof remote --forward 127.0.0.1:51820 --spoof-ip-file /path/to/src.txt .....`
 
 ---
+
+## حمایت مالی (Donation)
+
+اگر این پروژه برای شما مفید بوده و می‌خواهید از توسعه آن حمایت کنید، می‌توانید از طریق لینک زیر با ارزهای دیجیتال کمک مالی کنید:
+
+<div align="center">
+  <a href="https://nowpayments.io/donation?api_key=FH429FA-35N4AGZ-MFMRQ3Q-2H4BF98" target="_blank" rel="noreferrer noopener">
+      <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" width="200" alt="Crypto donation button by NOWPayments">
+  </a>
+</div>
+
+---
+
 توسعه داده شده و تست شده در قطعی کامل اینترنت ایران پس از قیام خونین 18 و 19 دی

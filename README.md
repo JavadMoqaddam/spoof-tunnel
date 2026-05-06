@@ -366,4 +366,16 @@ All config parameters can be provided either in a JSON file and run with `./spoo
 
 ---
 
+## Support & Donation
+
+If you find this project useful and would like to support its continued development, you can make a cryptocurrency donation using the link below:
+
+<div align="center">
+  <a href="https://nowpayments.io/donation?api_key=FH429FA-35N4AGZ-MFMRQ3Q-2H4BF98" target="_blank" rel="noreferrer noopener">
+      <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" width="200" alt="Crypto donation button by NOWPayments">
+  </a>
+</div>
+
+---
+
 Developed and tested during the complete Iranian internet blackout following the bloody uprising on 18 and 19 Dey (January 8–9, 2026).
